@@ -23,6 +23,7 @@ def iris_model_train(train_db_path, train_encoding_model_path):
 
 
 def iris_model_test(test_encoding_model_path, image_path):
+    print("Modded version --Matt")
     if os.path.exists(test_encoding_model_path):
         if os.path.exists(image_path):
             iris_name = iris_recg(test_encoding_model_path, image_path)
